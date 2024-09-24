@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "Young Serif";
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+.container {
+    background-color: #ffe4c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: #ffff;
+    width: 700px;
+    margin: 10vh auto;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.image,
+img {
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+.img-disc,
+h2 {
+    font-family: sans-serif;
+    font-weight: 0;
+}
+
+.text-disc {
+    color: #808080;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 1.5em;
+    padding: 1.5em;
+}
+
+.prep-time-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: hsl(332, 51%, 32%);
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+}
+
+.firstword {
+    font-weight: bold;
+    list-style-position: outside;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    justify-content: center;
+}
+
+.prep-list {
+    line-height: 2em;
+}
+
+.ing-title {
+    color: brown;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+}
+
+.ing-list {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2em;
+}
+
+.instruction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inst-title {
+    color: brown;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inst-firstword {
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+}
+
+.li-inst {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 0.6em;
+}
+
+.inst-ol {
+    line-height: 1.5em;
+}
+
+.nut {
+    color: brown;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-disc {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.table-nutrition {
+    margin-top: 1em;
+    width: 100%;
+}
+
+tbody {
+    display: flex;
+    flex-direction: column;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+td {
+    flex: 1;
+}
+
+.nutrition-amount {
+    font-weight: bold;
+    color: hsl(332, 51%, 32%);
+}
+
+.nutrition-title {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nutrition-amount {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nutrition {
+    line-height: 2em;
+}
